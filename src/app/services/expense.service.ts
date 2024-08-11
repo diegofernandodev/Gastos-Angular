@@ -7,7 +7,7 @@ import { Expense } from '../models/expense.model';
   providedIn: 'root'
 })
 export class ExpenseService {
-  private readonly API_URL = 'http://127.0.0.1:9000/api';
+  private readonly API_URL = 'http://127.0.0.1:8000/api';
 
   constructor(
     private http: HttpClient
